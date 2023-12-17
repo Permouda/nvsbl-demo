@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="initial-scale=1.0, viewport-fit=cover" />
+    <title>NVSBL DEMO</title>
+  </head>
+  <body class="dark-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-left">
+          <a class="navbar-brand" href="">NVSBL</a>
+        </div>
+        <div class="navbar-right">
+          <div class="toggle-bar">
+            <div class="sun-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15Zm0 2q-2.075 0-3.537-1.463Q7 14.075 7 12t1.463-3.538Q9.925 7 12 7t3.538 1.462Q17 9.925 17 12q0 2.075-1.462 3.537Q14.075 17 12 17ZM2 13q-.425 0-.712-.288Q1 12.425 1 12t.288-.713Q1.575 11 2 11h2q.425 0 .713.287Q5 11.575 5 12t-.287.712Q4.425 13 4 13Zm18 0q-.425 0-.712-.288Q19 12.425 19 12t.288-.713Q19.575 11 20 11h2q.425 0 .712.287.288.288.288.713t-.288.712Q22.425 13 22 13Zm-8-8q-.425 0-.712-.288Q11 4.425 11 4V2q0-.425.288-.713Q11.575 1 12 1t.713.287Q13 1.575 13 2v2q0 .425-.287.712Q12.425 5 12 5Zm0 18q-.425 0-.712-.288Q11 22.425 11 22v-2q0-.425.288-.712Q11.575 19 12 19t.713.288Q13 19.575 13 20v2q0 .425-.287.712Q12.425 23 12 23ZM5.65 7.05 4.575 6q-.3-.275-.288-.7.013-.425.288-.725.3-.3.725-.3t.7.3L7.05 5.65q.275.3.275.7 0 .4-.275.7-.275.3-.687.287-.413-.012-.713-.287ZM18 19.425l-1.05-1.075q-.275-.3-.275-.712 0-.413.275-.688.275-.3.688-.287.412.012.712.287L19.425 18q.3.275.288.7-.013.425-.288.725-.3.3-.725.3t-.7-.3ZM16.95 7.05q-.3-.275-.287-.688.012-.412.287-.712L18 4.575q.275-.3.7-.288.425.013.725.288.3.3.3.725t-.3.7L18.35 7.05q-.3.275-.7.275-.4 0-.7-.275ZM4.575 19.425q-.3-.3-.3-.725t.3-.7l1.075-1.05q.3-.275.713-.275.412 0 .687.275.3.275.288.688-.013.412-.288.712L6 19.425q-.275.3-.7.287-.425-.012-.725-.287ZM12 12Z"/></svg>
+            </div>
+            <button class="toggle-button">
+              <div class="toggle-circle"></div>
+            </button>
+            <div class="moon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 21q-3.75 0-6.375-2.625T3 12q0-3.75 2.625-6.375T12 3q.35 0 .688.025.337.025.662.075-1.025.725-1.637 1.887Q11.1 6.15 11.1 7.5q0 2.25 1.575 3.825Q14.25 12.9 16.5 12.9q1.375 0 2.525-.613 1.15-.612 1.875-1.637.05.325.075.662Q21 11.65 21 12q0 3.75-2.625 6.375T12 21Zm0-2q2.2 0 3.95-1.212 1.75-1.213 2.55-3.163-.5.125-1 .2-.5.075-1 .075-3.075 0-5.238-2.162Q9.1 10.575 9.1 7.5q0-.5.075-1t.2-1q-1.95.8-3.162 2.55Q5 9.8 5 12q0 2.9 2.05 4.95Q9.1 19 12 19Zm-.25-6.75Z"/></svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page-wrapper" asscroll>
+
+        <!-- Hero Section -->
+
+        <section class="hero">
+          <div class="hero-wrapper">
+
+            <!-- Intro -->
+            <div class="intro-text">Scroll down to unbox</div>
+            <div class="arrow-svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M12 14.95q-.2 0-.375-.063-.175-.062-.325-.212L6.675 10.05q-.275-.275-.262-.688.012-.412.287-.687.275-.275.7-.275.425 0 .7.275l3.9 3.9 3.925-3.925q.275-.275.688-.263.412.013.687.288.275.275.275.7 0 .425-.275.7l-4.6 4.6q-.15.15-.325.212-.175.063-.375.063Z"/></svg>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">NVSBL Connect</h1>
+              <p class="hero-main-description">Collecter les cartes | Connecter les cartels</p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading first-sub">Limited Edition</p>
+              <p class="hero-second-subheading second-sub">• 200</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- First Section -->
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">Where Your Cards Open Doors</span>
+            </h2>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="section-image" src="/images/sbc.jpg" alt="Cockpit picture">
+            <h3 class="section-heading">Meet the Future of Business Cards</h3>
+            <p class="section-text">Welcome to the era of borderless connections. NVSBL Connect revolutionizes how you share your professional information. With our smart NFC business cards, every interaction becomes an opportunity for instant and memorable connection.</p>
+            <h3 class="section-heading">The NVSBL Experience in a Click</h3>
+            <p class="section-text"> Discover efficiency at your fingertips. NVSBL Connect simplifies the exchange of professional information with cutting-edge technology. Our NFC smart cards enable swift connections, eliminating the hassles of traditional business card exchanges.</p>
+            <h3 class="section-heading">Your Professional Identity, Reimagined</h3>
+            <p class="section-text">Customize, impress, connect. NVSBL Connect offers an intuitive platform to create business cards that truly reflect your identity. Add personal touches, links to your projects, and create connection opportunities that go beyond paper.</p>
+          </div>
+        </section>
+
+        <!-- Second Section -->
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">The Art of Connection with NVSBL Connect</span>
+            </h2>
+            <span class="section-number">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="section-image" src="/images/nfcchip.jpg" alt="Drivetain picture">
+            <h3 class="section-heading">Smart NFC Cards: Instant Connection</h3>
+            <p class="section-text">Immerse yourself in the world of swift connections! Our smart NFC cards break down barriers, fostering quick and innovative interactions. Connect seamlessly by simply bringing your card close to others, making networking a breeze.</p>
+            <h3 class="section-heading">Vibrant Customization: Unleash Your Creativity</h3>
+            <p class="section-text">Break free from the ordinary! NVSBL Connect empowers you to personalize your cards with unique designs, animations, and links to your professional universe. Showcase your creativity and leave a lasting impression with every exchange.</p>
+            <h3 class="section-heading">Uncompromising Security: Your Data Fortress</h3>
+            <p class="section-text">Your data deserves the best protection. NVSBL Connect integrates cutting-edge security measures, creating a fortress around your information. Experience total peace of mind, knowing that your connections are secured with the utmost care.</p>
+          </div>
+        </section>
+
+        <!-- Third Section -->
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">"Welcome to the NVSBL Community!</span>
+            </h2>
+            <span class="section-number">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <img class="section-image" src="/images/commu.jpg" alt="Bike picture">
+            <h3 class="section-heading">Your Professional Hub for Innovation</h3>
+            <p class="section-text">Step into a dynamic community where innovation meets collaboration. NVSBL Community goes beyond a mere network; it's a platform for professionals to share insights, spark creativity, and forge meaningful connections.</p>
+            <h3 class="section-heading">Benefits of the Community</h3>
+            <h2 class="section-heading-2">Collaborative Innovations</h2>
+            <p class="section-text">Share your boldest ideas and discover how fellow professionals are revolutionizing their networks.</p>
+            <h2 class="section-heading-2">Exclusive Events</h2>
+            <p class="section-text">Participate in exclusive virtual gatherings and inspiring webinars, exploring a world of events that transcend boundaries.</p>
+            <h2 class="section-heading-2">Positive Atmosphere</h2>
+            <p class="section-text">Become part of a community that celebrates collective success and supports each other in reaching new professional heights.</p>
+          </div>
+        </section>
+
+        <!-- Fourth Section -->
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h2 class="section-title">
+              <span class="section-title-text">About This Project</span>
+            </h2>
+            <span class="section-number">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Ready to Elevate Your Connections?</h3>
+            <p class="section-text">Let's Start a Conversation <br>
+              Explore the future with NVSBL Connect. Questions or assistance needed? Let's chat and unlock new possibilities together.</p>
+            
+            <h3 class="section-heading">Credits:</h3>
+            <ul>
+              <li class="section-text">Developed by <a href="https://linktr.ee/elhaddaji">EL HADDAJI Iliass</a>
+              <li class="section-text">Model & Photos by <a href="https://linktr.ee/permouda">Pérmouda</a></li>
+              <!-- <li class="section-text">Photos by <a href="https=unsplash&utm_medium=referral&utm_content=creditCopyText">Pérmouda</a> -->
+              
+              </li>
+            </ul>
+          </div>
+
+          <footer>
+            <div>© 2024 - <a class="footer-link" href="https://www.instagram.com/ilya.permouda/">Pérmouda</a></div>
+            <div class="socials">
+              <a class="footer-link" href="https://github.com/Permouda">github</a>
+              <a class="footer-link" href="https://twitter.com/Permouda">twitter</a>
+            
+            </div>
+          </footer>
+        </section>
+      </div>
+
+      <!-- Debug -->
+      <div class="debug"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
