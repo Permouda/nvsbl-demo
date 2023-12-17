@@ -43,10 +43,10 @@ export default class Resources extends EventEmitter {
           const material006 = model.getObjectByName('BACK_Cube003_Material006_0').material;
 
           // Replace color with texture
-          const texture006 = new THREE.TextureLoader().load('../../public/textures/model_1_1.jpg');
+          const texture006 = new THREE.TextureLoader().load('${currentDirectory}/../../public/textures/model_1_1.jpg');
           material006.map = texture006;
 
-          const texture005 = new THREE.TextureLoader().load('../../public/textures/model_back_1_1.jpg');
+          const texture005 = new THREE.TextureLoader().load('${currentDirectory}/../../public/textures/model_back_1_1.jpg');
           material005.map = texture005;
 
           
