@@ -11,3 +11,5 @@ Preview Project: https://youtu.be/ow9iCtebW88
 ## Authors
 
 - [EL HADDAJI Iliass](https://github.com/Permouda)
+
+- Project on vercel: https://nvsbl-demo.vercel.app/
